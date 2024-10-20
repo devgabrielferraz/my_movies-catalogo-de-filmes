@@ -1,0 +1,98 @@
+*{
+  font-family: Helvetica;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #000;
+  color:#FFF
+}
+
+a{
+  text-decoration: none;
+  color: #f5d153 
+}
+
+a:hover{
+  color:#b8930c
+} 
+
+
+.movies-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.movies-container div{
+  width: 30%;
+  color: #fff;
+  margin-bottom: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #111;
+  padding: 1rem;
+}
+
+.movies-container div img {
+  max-width: 100%;
+}
+
+.movies-container div img,
+.movies-container div h2,
+.movies-container div p {
+  margin-bottom: 1.5rem;
+}
+
+.movies-container div svg{
+  color: #f5d153 
+}
+
+.movie-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+  width: 200px; /* Ajuste conforme necessário */
+}
+
+.movie-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px; /* Para arredondar os cantos da imagem */
+}
+
+.container .title{
+  color: #fff;
+  font-size: 2rem;
+  text-align: center;
+  margin: 2rem 0 1rem;
+}
+
+.title .query-text{
+  color: #f5d153; 
+}
+
+.movies-container div a{
+  background-color: #f5d153;
+  border: 1px solid #f5d153;
+  border-radius: 4px;
+  color: #000;
+  padding: .3rem 0.1rem;
+  align-items: center;
+  text-align: center;
+  transition: .4s;
+  position: relative;
+  font-weight: bold;
+}
+
+.movies-container div a:hover{
+  background-color: transparent;
+  color: #b8930c;
+}
+
