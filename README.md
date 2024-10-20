@@ -11,7 +11,9 @@
 <br>
 <h4>Tecnologias Utilizadas:</h4>
 <p>Front-End:</p>
-<li>React</li>
+<li>React - JS library</li>
+<br>
+<li>React Router</li>
 <br>
 <li>Vite</li>
 <br>
@@ -19,7 +21,7 @@
 <br>
 <p>APIs e Serviços:</p>
 <li>TheMovieDB API (para fornecer informações sobre os filmes)</li>
-
+<br>
 <h4>Como Executar o Projeto:</h4>
 <p>Pré-requsitos:</p>
 <p>Antes de começar, você vai precisar ter o Node.js instalado na sua máquina.</p>
