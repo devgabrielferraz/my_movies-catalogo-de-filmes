@@ -7,7 +7,7 @@
 <br>
 <li>Busca de Filmes: Permite pesquisar por títulos específicos de filmes.</li>
 <br>
-<li>Detalhes dos Filmes: Ao clicar em um filme, o usuário é redirecionado para uma página com mais informações, como descrição, elenco e avaliação.</li>
+<li>Detalhes dos Filmes: Ao clicar em um filme, o usuário é redirecionado para uma página com mais informações, como descrição, elenco, orçamento, duração do filme e avaliação.</li>
 <br>
 <h4>Tecnologias Utilizadas:</h4>
 <p>Front-End:</p>
